@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	printf("Hello World!");
+	printf("Hello World!\n %6s \n", "");
 
 	return (0);
 }
