@@ -18,6 +18,7 @@ void looper(char *args);
 char *prompt(void);
 char **prompt_splitter(char *args);
 int execute_com(char **args, char *argv1);
+extern char **environ;
 
 /**
  * main - executes the program
